@@ -9,7 +9,19 @@
         enctype="multipart/form-data"
         method="post"
         >
-        <h1>Registrace</h1>
+        <header>
+            
+            <ul>
+            <li><a>* My site</a></li>
+            <li><a href="default.asp">Home</a></li>
+            <li><a href="news.asp">News</a></li>
+            <li><a href="contact.asp">Contact</a></li>
+            <li><a href="about.asp">About</a></li>
+          </ul>
+          
+        </header>
+        <main>
+            <h1>Registrace</h1>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required
                minlength="2" maxlength="10" size="10">
@@ -17,16 +29,16 @@
         <input type="text" id="name" name="name" required
                 minlength="2" maxlength="10" size="10">
 
-        <p>Sex</p>
-        <div>
-            <input type="radio" id="Woman" name="drone" value="Woman"
-             checked>
-            <label for="huey">Woman</label>
-        </div>
-        <div>
-            <input type="radio" id="Man" name="drone" value="Man">
-            <label for="dewey">Man</label>
-        </div>
+        
+        <form>
+            <p>Sex</p>
+            <label  class="radio-inline">
+            <input type="radio" id="Woman" name="drone" value="Woman" checked>Woman
+             </label>
+             <label  class="radio-inline">
+             <input type="radio" id="Man" name="drone" value="Man">Man
+            </label>
+        </form>
 
         <label for="start">Birthday:</label>
         <input type="date" id="start" name="trip-start"
@@ -53,8 +65,10 @@
             <input type="password" id="pass" name="password"
                    minlength="8" required>
         </div>
+        </main>
         <input class="favorite styled"
         type="submit"
         value="Save">
+
     </body>
 </html>
