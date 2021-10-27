@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="reg_in.css" rel="stylesheet">
+        <script src="regin.js"></script>
+    </head>
+    <body>
+        <form
+        action="dek.html"
+        enctype="multipart/form-data"
+        method="post"
+        >
+        <main>
+            <h1>Registrace</h1>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" class="form-control" id="username" name="username">
+        </div>
+        
+        <div>
+            <label for="password">Password (8 characters minimum):</label>
+            <input type="password" class="form-control" id="password" name="password"
+                   minlength="8" required>
+        </div>
+        <input class="favorite styled"
+        type="submit"
+        value="Save">
+        </main>
+        
+
+    </body>
+</html>
