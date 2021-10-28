@@ -1,0 +1,172 @@
+body {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 100%;
+    background: url(kvet.png) fixed;
+}
+
+input {
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.highlight {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    cursor: pointer;
+}
+a{
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+}
+
+.highlight:hover {
+    color: #fff;
+    transition: color .2s ease;
+}
+
+.spacing {
+    text-align: center;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.65)
+}
+
+.input-line:focus {
+    outline: none;
+    border-color: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.ghost-round {
+    cursor: pointer;
+    background: none;
+    border: 1px solid rgb(75, 75, 75);
+    ;
+    border-radius: 25px;
+    color: rgb(75, 75, 75);
+    ;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-size: 19px;
+    font-size: 1.2rem;
+    font-family: roboto;
+    font-weight: 300;
+    line-height: 2.5em;
+    margin-top: auto;
+    margin-bottom: 25px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.ghost-round:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.input-line {
+    background: none;
+    margin-bottom: 10px;
+    line-height: 2.4em;
+    color: rgb(75, 75, 75);
+    ;
+    font-family: roboto;
+    font-weight: 300;
+    letter-spacing: 0px;
+    letter-spacing: 0.02rem;
+    font-size: 19px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(kvet.png) fixed;
+    ;
+    height: 100%;
+}
+
+
+.welcome {
+    font-weight: 200;
+    margin-top: 75px;
+    text-align: center;
+    font-size: 40px;
+    font-size: 2.5rem;
+    letter-spacing: 0px;
+    letter-spacing: 0.05rem;
+}
+
+.window {
+    z-index: 100;
+    color: rgb(75, 75, 75);
+    ;
+    font-family: roboto;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: column;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    box-shadow: 0px 15px 50px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    height: 560px;
+    width: 360px;
+    background: pink;
+    opacity: 0.80;
+  filter: alpha(opacity=80);
+  z-index: 1;
+}
+
+.overlay {
+    background: pink;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    height: 560px;
+    position: absolute;
+    width: 360px;
+    z-index: 1;
+    
+}
+
+.input-fields {
+    margin-top: 25px;
+    opacity:  1;
+}
+
+
+.content {
+    padding-left: 25px;
+    padding-right: 25px;
+    display: flex;
+    flex-flow: column;
+    z-index: 5;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
