@@ -1,0 +1,184 @@
+body {
+    background: url(kvet.png) fixed;
+    background-size: cover;
+    margin: auto;
+    width: 50%;
+    font-family: sans-serif;
+
+}
+
+header {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 0%;
+    background-color: pink;
+    color: rgb(75, 75, 75);
+    margin-top: 10%;
+    opacity: 0.80;
+    filter: alpha(opacity=80);
+    z-index: 1;
+}
+
+main {
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: pink;
+    color: rgb(75, 75, 75);
+    opacity: 0.80;
+    filter: alpha(opacity=80);
+    margin-bottom: 0;
+    
+}
+
+
+footer {
+    padding: 10px;
+    background-color: pink;
+    color: rgb(156, 156, 156);
+    margin-bottom: 130px;
+    opacity: 0.80;
+    filter: alpha(opacity=80);
+}
+
+ul {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    background-color: pink;
+}
+
+
+li {
+    float: left;
+}
+
+h2{
+    float:right;
+    text-align: center;
+}
+
+input {
+    border: none;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.highlight {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.highlight:hover {
+    color: #fff;
+    transition: color .2s ease;
+}
+
+.spacing {
+    text-align: center;
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.65)
+}
+
+.input-line:focus {
+    outline: none;
+    border-color: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.input-line {
+    background: none;
+    margin-bottom: 10px;
+    line-height: 2.4em;
+    color: rgb(75, 75, 75);
+    ;
+    font-family: roboto;
+    font-weight: 300;
+    letter-spacing: 0px;
+    letter-spacing: 0.02rem;
+    font-size: 19px;
+    font-size: 1.2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.65);
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.full-width {
+    width: 50%;
+}
+
+.input-fields {
+    text-align:center;
+    margin-top: 25px;
+    opacity:  1;
+}
+
+.ghost-round {
+    cursor: pointer;
+    background: none;
+    border: 1px solid rgb(75, 75, 75);
+    ;
+    border-radius: 25px;
+    color: rgb(75, 75, 75);
+    ;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    font-size: 19px;
+    font-size: 1.2rem;
+    font-family: roboto;
+    font-weight: 300;
+    line-height: 2.5em;
+    margin-top: auto;
+    margin-bottom: 25px;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.ghost-round:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #fff;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.radio{
+   margin-top: 10px;
+  padding: 10px;
+  color: rgb(75, 75, 75);
+}
+
+
+input[type=radio] {
+    
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+  }
+
+input:checked {
+    border: 8px solid rgb(75, 75, 75);
+  }
+
+  input[type=date]{
+      padding: 10px;
+    appearance: none;
+    border-radius: 25px;
+    margin: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.2s all linear;
+    margin-right: 5px;
+    position: relative;
+    margin-bottom: 20px;
+    color: rgb(75, 75, 75);
+  }
