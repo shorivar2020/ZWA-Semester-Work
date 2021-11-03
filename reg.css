@@ -1,9 +1,10 @@
-body {
+body, html {
     margin: auto;
     margin-top: 2%;
     margin-bottom: 2%;
     height: 100%;
-    background: url(kvet.png) fixed;
+    background: url(kvet.png) no-repeat  center center fixed;
+    background-size: cover;
 }
 
 input {
@@ -16,29 +17,23 @@ input {
 
 .highlight {
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 400;
+    font-weight: 500;
     cursor: pointer;
 }
+
 a{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(75, 75, 75);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(75, 75, 75);
     text-decoration: none;
 }
 
 .highlight:hover {
-    color: #fff;
+    color: rgb(75, 75, 75);
     transition: color .2s ease;
-}
-
-.spacing {
-    text-align: center;
-    margin-top: 5px;
-    color: rgba(255, 255, 255, 0.65)
 }
 
 .input-line:focus {
@@ -82,7 +77,6 @@ a:visited {
     margin-bottom: 10px;
     line-height: 2.4em;
     color: rgb(75, 75, 75);
-    ;
     font-family: roboto;
     font-weight: 300;
     letter-spacing: 0px;
@@ -105,8 +99,7 @@ a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(kvet.png) fixed;
-    ;
+    
     height: 100%;
 }
 
